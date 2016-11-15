@@ -1,0 +1,291 @@
+h1,h3,p,a,button{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* 导航         ********************************************************************************/
+.side-nav{
+    position: fixed;
+    top: 45%;
+    right: 20px;
+    z-index: 1;
+}
+.side-nav ul{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.side-nav ul li{
+    display: block;
+    line-height: 1.45em;
+    margin: 0;
+    padding: 8px 0;
+}
+.side-nav ul li a{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.default{
+    background-color: #85939b;
+
+}
+.select{
+    background-color: white;
+}
+/* 第一屏         ********************************************************************************/
+.onepage{
+    min-height: 100vh;
+    height: auto;
+}
+.onepage-bg{
+
+    min-height: 800px;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+}
+#onepagebg{
+    background-image: url("images/weixiangfengguang1.jpg") ;
+}
+.headh1content{
+    margin-top: 150px;
+    line-height: 75px;
+}
+.title-text{
+    margin-left: 50px;
+}
+.headfontsize h1{
+    font-size: 50pt;
+    color: orange;
+}
+.headfontsize h2{
+    color: #FFFFFF;
+}
+/* 第二屏         ********************************************************************************/
+
+.twopage{
+    padding: 2px 0 0 2px;
+   min-height: 100vh;
+    background-image: url("images/qiansediwenmohubeijingsucai_5823543.jpg");
+    position: relative;
+}
+.twopage-text{
+    width: 100%;
+    text-align: center;
+
+}
+.twopage-text-h1{
+    margin-left: 120px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    padding: 20px 0 20px 0;
+}
+.twopage-text-h1 img{
+    width: 120px;
+    margin-top: -10px;
+}
+.twopage .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.twopage-view{
+    float: left;
+    padding: 0 2px 2px 0;
+    position: relative;
+    overflow: hidden;
+}
+.twopage-view >a{
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.classicon h3{
+    margin-top: 120px;
+}
+.classicon{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    opacity: 0;
+}
+.classicon:hover{
+    opacity: 0.9;
+    background-color: #5cb85c;
+    transition: opacity 0.5s;
+}
+.twopagebtn{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#twopage-btn{
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+/* 第三屏         ********************************************************************************/
+
+.threepage{
+
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+}
+.threepage-bg{
+
+    height: 100%;
+    width: 100%;
+
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+#threepagebg{
+    background-image: url("images/foodbg.jpg");
+}
+.threepagecontent{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    min-height:100vh;
+}
+.threepagetext{
+    padding-top: 50px;
+}
+.threepagetext p{
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.threepagebtn{
+    font-size: 25px;
+    left: 50%;
+    margin-bottom: 25px;
+}
+
+.img-list{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imgfood{
+    width: 300px;
+    height:200px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+/* 第四屏         ********************************************************************************/
+
+.fourpage{
+    min-height: 100vh;
+    height: auto;
+    position: relative;
+}
+.fourpage-bg{
+    height: 100%;
+    padding: 2px 0 0 2px;
+    background-image: url("images/disiping02.jpg");
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+}
+.fourpagecontent{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 100vh;
+
+}
+.fourpagetext{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#img-area{
+    height: 500px;
+}
+@media screen and (min-width: 768px){
+    .carousel-indicators {
+        bottom: 10px;
+    }}
+.lvxing{
+    width: 700px;
+    height: 450px;
+
+}
+.lvxing img{
+    height: 450px;
+    width: 340px;
+
+
+}
+.lvxing p{
+
+    margin: 20px;
+    font-weight: 600;
+
+
+}
+.carousel-control.left {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.0000) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.0000) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,.0000)));
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,.0000) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.carousel-control.right {
+    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.0000) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.0000) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,.0000)));
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,.0000) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+@media screen and (max-width: 767px){
+.text{
+    display: none;
+}
+}
+/* 第五屏         ********************************************************************************/
+.fivepage{
+    min-height: 100vh;
+    height: auto;
+    position: relative;
+}
+.fivepage-bg{
+    height: 100%;
+    padding: 2px 0 0 2px;
+    background-image: url("images/diwuping.jpg");
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-size: cover;
+}
+.fivepagecontent{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 100vh;
+
+}
+.fivepagetext{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    font-weight: 600;
+
+}
+.fivepagetext h1{
+    font-size: 60px;
+}

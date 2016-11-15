@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>潍坊旅游</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+    <div class="side-nav">
+        <ul class="nav-side-nav">
+            <li><a href="#onepage" class="tooltip-side-nav select one"></a></li>
+            <li><a href="#twopage" class="tooltip-side-nav default two"></a></li>
+            <li><a href="#threepage" class="tooltip-side-nav default three"></a></li>
+            <li><a href="#fourpage" class="tooltip-side-nav default four"></a></li>
+            <li><a href="#fivepage" class="tooltip-side-nav default five"></a></li>
+        </ul>
+    </div>
+<!--第一个页面-->
+    <div class="onepage" id="onepage">
+        <div class="onepage-bg " id="onepagebg"></div>
+        <div class="container">
+            <div class="row">
+                <div class="title-text">
+                    <div class="col-md-12 headfontsize">
+                        <h1 class="headh1content">
+                            锦绣潍坊 <br/>
+                            潍水润古今,坊道通天下
+                        </h1>
+
+                        <h2 style="margin-top: 50px">欢乐潍坊行，大好年华必不辜负。</h2>
+                        <p class="btn-app-tore" >
+                            <a href="#fivepage" class="btn btn-success btn-lg" style="margin-top: 50px">立即开始</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--第二个页面-->
+    <div class="twopage" id="twopage">
+        <div class="twopage-text">
+            <h1 class="twopage-text-h1">
+                选择第一个风景开始游览。<img src="images/logo2.png" alt="logo"/>
+            </h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 twopage-view">
+                <a href="#">
+                    <img src="images/ziyiyuan.jpg" alt="ziyiyuan" style="width: 100%;height: 270px"/>
+                    <div class="classicon">
+                        <h3>自怡园</h3>
+                        <h1><strong>访问这个景观</strong></h1>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-4 twopage-view">
+            <a href="#">
+                <img src="images/yishan.jpg" alt="ziyiyuan" style="width: 100%;height: 270px"/>
+                <div class="classicon">
+                    <h3>沂山</h3>
+                    <h1><strong>访问这个景观</strong></h1>
+                </div>
+            </a>
+        </div>
+            <div class="col-sm-4 twopage-view">
+                <a href="#">
+                    <img src="images/laolongwna.jpg" alt="ziyiyuan" style="width: 100%;height: 270px"/>
+                    <div class="classicon">
+                        <h3>老龙湾</h3>
+                        <h1><strong>访问这个景观</strong></h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="twopagebtn">
+            <a href="#" id="twopage-btn" class="btn btn-success btn-lg">
+                想要更多，点击这里
+            </a>
+        </div>
+
+    </div>
+<!--第三个页面-->
+    <div class="threepage" id="threepage">
+        <div class="threepage-bg" id="threepagebg">
+            <div class="threepagecontent">
+                <div class="threepagetext">
+                    <h1>潍坊美食，我选择他们</h1>
+                    <p>没有一种爱，会比对食物的爱更真诚。我想没有哪一样东西会比食物更能恰如其分地安慰人心。<br/>
+                        如果有，那就是爱。只有爱和食物同等分量，不分伯仲。</p>
+                </div>
+                <div class="container anniu">
+                    <!-按钮组->
+                    <div class="btn-group btn-group-justified">
+                        <div class="btn-group ">
+                            <button type="button" class="btn btn-default  active" id="ball">全部</button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default bhuoshao" >肉火烧</button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default bhele">和乐</button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default bhuoshoa">杠子头火烧</button>
+                        </div>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default bchao">朝天锅</button>
+                        </div>
+                    </div>
+                    <!-按钮下部图片->
+                    <div class="img-list ">
+
+                        <img src="images/hele.jpg" class=" imgfood hele" data-action="zoom" alt=""/>
+
+                        <img src="images/hele2.png" class=" imgfood hele" data-action="zoom" alt=""/>
+
+                        <img src="images/chaotianguo.jpg" class=" imgfood chao" data-action="zoom" alt=""/>
+
+                        <br/>
+                        <img src="images/huoshoa.jpg" class=" imgfood huoshoa" data-action="zoom" alt=""/>
+
+                        <img src="images/rouhuoshao02.jpg" class=" imgfood huoshao" data-action="zoom" alt=""/>
+
+                        <img src="images/huoshao1.jpg" class=" imgfood huoshao" data-action="zoom" alt=""/>
+
+                    </div>
+                </div>
+                <div >
+                <a href="#" class="btn btn-success btn-lg threepagebtn">开启美食之旅</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--第四个页面-->
+    <div class="fourpage" id="fourpage">
+        <div class="fourpage-bg" id="fourpagebg">
+            <div class="fourpagecontent">
+                <div class="fourpagetext">
+                    <h1>旅行画册</h1>
+                </div>
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators" id="ol-img">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+
+
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" id="img-area" role="listbox">
+                        <div class="item active">
+                            <div class="container lvxing ">
+                                <div class="row">
+                                    <div class="col-sm-6 container">
+                                        <img src="images/lvxing01.jpg" alt="..." class="lvxing01 ">
+                                    </div>
+                                    <div class="col-sm-6 text">
+                                        <h1>坊茨小镇</h1>
+                                        <p>
+                                            坊子区老城区，因为曾经被德日两军占领，而遗留了很多特色建筑，是解放前潍坊最繁华的地方。很多地方还没有开发完善，目前核心景区细节也有缺憾。除了现在开发好的核心景区，特别应该去看看坊子火车站和炭矿旧址，曾经坊子繁华的两大标志。火车站现在虽然是半废弃状态，但是铁轨多变视野开阔，拍照片美美哒。可乘坐22或72路到社会福利院站，或者乘坐58路到北海双语学校站，步行进巷子可达。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container lvxing ">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <img src="images/lvxing02.jpg" alt="..." class="lvxing01 ">
+                                    </div>
+                                    <div class="col-sm-6 text">
+                                        <h1>坊茨小镇</h1>
+                                        <p>
+                                            坊子区老城区，因为曾经被德日两军占领，而遗留了很多特色建筑，是解放前潍坊最繁华的地方。很多地方还没有开发完善，目前核心景区细节也有缺憾。除了现在开发好的核心景区，特别应该去看看坊子火车站和炭矿旧址，曾经坊子繁华的两大标志。火车站现在虽然是半废弃状态，但是铁轨多变视野开阔，拍照片美美哒。可乘坐22或72路到社会福利院站，或者乘坐58路到北海双语学校站，步行进巷子可达。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container lvxing ">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <img src="images/lvxing03.jpg" alt="..." class="lvxing01 ">
+                                    </div>
+                                    <div class="col-sm-6 text">
+                                        <h1>偶园</h1>
+                                        <p>
+                                            其实我去的不是偶园，我去的时候偶园正在修缮并没有对外界开放，但是由于画册必须关联和评价相关目的地，我又找不到青州古城这个目的地，所以就关联到偶园了。要说的是偶园其实只是青州古城景区里面一个很小很小的部分，其实我觉得青州古城真的挺不错的，有时间的话可以去看看。那里是一个真正有历史的地方，居民也很友好，青州有很丰富的旅游资源，希望政府部门能好好利用。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container lvxing ">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <img src="images/lvxing04.jpg" alt="..." class="lvxing01 ">
+                                    </div>
+                                    <div class="col-sm-6 text">
+                                        <h1>潍坊临朐沂山</h1>
+                                        <p>
+                                            沂山，旧称东泰山，别名东镇，是沂蒙山的主脉，素有“泰山为五岳之尊，沂山为五镇之首”的盛誉。其主峰玉皇顶，位于临朐东南50公里处。海拔1031米。周围山峦重叠，群山起伏，绵延数百里。　沂山独居鲁中，地势险峻，是古代军事要冲。春秋战国时期，齐国依山势修筑长城，设置关塞，东侧的穆陵关，西侧的铜陵关，都有“一夫当关，万夫莫入”之势。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container lvxing ">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <img src="images/lvxing05.jpg" alt="..." class="lvxing01 ">
+                                    </div>
+                                    <div class="col-sm-6 text">
+                                        <h1>坊茨小镇</h1>
+                                        <p>
+                                            从潍坊市区向南，在坊子区有一片保留完整的德国风情街区，这里与百年胶济铁路共同成长，是当年修建胶济铁路时德国人居住的，后来逐渐荒废。这几年有重新规划开发，在原有基础上保护维修，并开发成了艺术创作基地，目前免费开放。有一栋栋的德国别墅，在国内并不多见，非常有特色。 乘坐公交车到“社会福利院”后沿着三马路步行约5分钟就是坊茨小镇。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container lvxing ">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <img src="images/lvxing06.jpg" alt="..." class="lvxing01 ">
+                                    </div>
+                                    <div class="col-sm-6 text">
+                                        <h1>潍坊石门坊</h1>
+                                        <p>
+                                            石门坊，亦称石门房，又名石门山，位于临朐城西二十多华里，山势曲结南向，两峰对峙如门，故名。奇观天成的石门“晚照”，居临朐八大景之首，早在殷商时期，即被人们所慕仰距今已有三千年的历史。殷商临朐之城为逄国，石门山为逄国辖地。逄国国君（伯爵）逄陵为朝廷忠臣，人们为追念其功德，便在风景秀丽的石门山立庙祀之。到了唐代，增建庙宇，刻佛像，已成为名胜之地，黄冠缁流，骚人墨客，云集于此，遁迹觞咏。宋、元、明时建成佛塔、神龛。清代、民国时期，续增摩崖刻石，新建文昌殿，构成了古代建筑群。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+<!--第五个页面-->
+
+    <div class="fivepage" id="fivepage">
+        <div class="fivepage-bg" id=""fivepage>
+            <div class="fivepagecontent">
+                <div class="fivepagetext">
+                    <h1>快来加入我们吧</h1>
+                </div>
+                <div >
+                    <div class="row" style="margin-left:0px;margin-right: 0px;">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <form class="form-horizontal" action="" method="get">
+                                <div class="form-group has-feedback">
+                                    <label for="email" class="col-sm-3 control-label">邮箱:</label>
+                                    <div class="col-sm-6">
+                                        <input type="email" class="form-control input-lg" id="email"
+                                               placeholder="Enter Email" required/>
+                                        <span class=""></span>
+                                    </div>
+                                    <div class="col-sm-3"></div>
+
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <label for="username" class="col-sm-3 control-label">用户名:</label>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control input-lg" id="username"
+                                               placeholder="Enter Username" required/>
+                                        <span class=""></span>
+                                    </div>
+                                    <div class="col-sm-3"></div>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <label for="password" class="col-sm-3 control-label">密码:</label>
+                                    <div class="col-sm-6">
+                                        <input type="password" class="form-control input-lg" id="password"
+                                               placeholder="Enter Password" required/>
+                                        <span class=""></span>
+                                    </div>
+                                    <div class="col-sm-3"></div>
+
+                                </div>
+
+                                <!--btn-->
+                                <p>
+                                    <span class="row">
+                                        <span class="col-sm-3"></span>
+                                        <span class="col-sm-3">
+                                            <button id="btnSubmit" type="submit" class="btn btn-primary btn-lg btn-block">注册
+                                            </button>
+                                        </span>
+                                        <span class="col-sm-3">
+                                             <button type="reset" class="btn btn-danger btn-lg btn-block">清除</button>
+                                         </span>
+                                        <span class="col-sm-3"></span>
+                                    </span>
+                                </p>
+
+                                <!--
+                                    ok: glyphicon glyphicon-ok form-control-feedback
+                                    warning: glyphicon glyphicon-warning-sign form-control-feedback
+                                    error: glyphicon glyphicon-remove form-control-feedback
+                                -->
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="jquery-3.1.0.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="zooming.js"></script>
+<script src="style.js"></script>
+</html>
